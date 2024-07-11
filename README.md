@@ -1,19 +1,20 @@
-# Welcome Everyone
+![](/img/banner.png)
 
-This is the **official** website for [MA Abdelghafar](https://www.youtube.com/@maabdelghafar/)
+# MA Abdelghafar 👋
 
-> Of Course, It's Made With `HTML` and `CSS` ONLY!
+Hello everyone this is MA Abdelghafar and welcome to my project.
 
-I know there is no much in this file so...?
+### Overview
+---
+This repository hosts the website on **GitHub Pages.**
 
-That's a Targets I've Done on YouTube.
+### Special Note
+---
+This is my first ever Web Project, Made With `HTML` and `CSS`.
 
-- [X] Opening a Channel In **2019**
+I'll be very appreciated if you contributed. thx!
 
-- [X] My **MOST WATCHED Video** Has GOT Hit the __47k__ Views
+### Troubleshooting
+---
 
-So The **OLD** Channel Got **DELETED**
-
-But no worries It's a new Start!
-
-See you later! 👋
+Join our [discord server](https://discord.gg/youtuber) and go to `#support` then open a ticket and report the bug/problem.
