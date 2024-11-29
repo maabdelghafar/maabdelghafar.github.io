@@ -1,5 +1,3 @@
-![](/img/banner.png)
-
 # MA Abdelghafar 👋
 
 Hello everyone this is MA Abdelghafar and welcome to my project.
