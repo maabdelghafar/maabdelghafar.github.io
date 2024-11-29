@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Linefont&display=swap');
+/* Default Styles IMPORTANT */
+:root{
+	--primary-color: #3498db;
+	--secondary-color: #95a5a6;
+	--accent-color: #e67e22;
+	--fourth-color: #2ecc71;
+	--selection-color: #2980b9;
+	--transition: all .5s ease;
+	--script-font: "Niconne", serif;
+	--blood-font: "Nosifer", serif;
+	--caps-font: "Barrio", system-ui;
+	--sophisticated-font: "Quintessential", serif;
+	--futuristic-font: "Orbitron", sans-serif;
+	--monospace-font: "Cutive Mono", monospace;
+	--barcode-font: "Libre Barcode 39 Text", system-ui;
+	--geometric-font: "Montserrat", sans-serif;
+	--line-font: "Linefont", system-ui;
+}
+/* Firefox selection color */
+::moz-selection{
+	background: var(--selection-color);
+}
+/* Selection color */
+::selection{
+	background: var(--selection-color);
+}
+/* All things styles */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: var(--geometric-font);
+	scroll-behavior: smooth;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: var(--secondary-color);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: var(--primary-color);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: var(--selection-color);
+  }
+  
+
+body{
+	background: #121212;
+}
+
+header{
+	background-color: var(--secondary-color);
+}
+header h1{
+	text-align: left;
+}
+
+header .headerContent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header .headerContent .quranicText{
+	font-size: 40px;
+	/* font-family: var(--caps-font); */
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+/* header .headerContent img{
+	width: 250px;
+	height: auto;
+	float: left;
+	display: block;
+	margin: auto;
+} */
+
+header .headerContent a{
+	color: #fff;
+	text-decoration: none;
+	align-items: center;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+header nav ul li{
+	display: inline-block;
+	margin-bottom: 5px;
+}
+header nav ul li a{
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 20px;
+	padding: 5px;
+	color: #fff;
+	float: left;
+	transition: var(--transition);
+}
+header nav ul li a:hover{
+	background: var(--primary-color);
+}
+
+header nav ul li a.textLogo{
+	font-family: var(--caps-font);
+	/* font-size: 25px; */
+}
+
+header nav ul li a img{
+	width: 50px;
+
+}
+
+.social-icons{
+	width: 100%;
+	position: fixed;
+	overflow: hidden;
+	/* z-index: 1; */
+	bottom: 0;
+	background-color: var(--secondary-color);
+}
+
+.social-icons a{
+	float: left;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 10px;
+	color: #fff;
+	display: block;
+	transition: var(--transition);
+}
+
+.social-icons a:hover{
+	font-size: 25px;
+	background: var(--primary-color);
+}
+
+.social-icons .social-icons-right{
+	float: right;
+}
+
+
+
+header nav ul .navRight{
+	float: right;
+	text-align: center;
+	margin-right: 20px;
+}
+
+
+.btn{
+	position: relative;
+	padding: 6px 12px;
+	background: var(--fourth-color);
+	outline: 0;
+	color: #fff;
+	cursor: pointer;
+	transition: var(--transition);
+	border: 2px solid var(--fourth-color);
+}
+.btn:hover{
+	background: #54D98C;
+	border: 2px solid #54D98C;
+}
+
+.btn-outline{
+	background: transparent;
+	color: var(--fourth-color);
+	font-weight: bold;
+}
+.btn-outline:hover{
+	border: 2px solid var(--fourth-color);
+	background: var(--fourth-color);
+	color: #fff;
+}
+
+.title{
+	text-align: center;
+	color: var(--selection-color);
+	font-size: 50px;
+	text-decoration: underline;
+	font-family: var(--futuristic-font);
+}
+
+
+.lineGroup .line1{
+	height: 10px;
+	width: 10px;
+	background: var(--primary-color);
+	margin-bottom: 5px;
+}
+
+.lineGroup .line2{
+	height: 5px;
+	width: 20px;
+	background: var(--primary-color);
+	margin-bottom: 5px;
+}
+
+.lineGroup .line3{
+	height: 5px;
+	width: 40px;
+	background: var(--primary-color);
+	margin-bottom: 5px;
+}
+
+/* home-----section */
+
+
+.hero{
+	position: relative;
+	display: grid;
+	place-items: center;
+	background-image: linear-gradient(rgba(0,0,0,0.1), rgb(52, 152, 219)), url(../img/vintageWallpaper.jpg);
+	height: 100vh;
+	width: 100%;
+}
+
+.hero .hero-text{
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.hero .hero-text h4{
+	font-size: 40px;
+	font-family: var(--monospace-font);
+}
+.hero .hero-text h3{
+	font-size: 30px;
+}
+
+.hero .hero-text h2{
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+
+.hero .hero-text .typing-container{
+	display: flex;
+    text-align: left;
+}
+
+.hero .hero-text .typing-container .typing-text{
+	font-size: 50px;
+	color: var(--primary-color);
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 2px solid;
+	width: auto;
+	animation: typing 2s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #333; }
+}
+
+img{
+	pointer-events: none;
+}
+/* Services-----------Section */
+
+.services{
+	padding: 50px 0;
+}
+
+.services .container{
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.services .service{
+	display: inline-block;
+	width: 30%;
+	margin: 10px;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid var(--secondary-color);
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	transition: var(--transition);
+}
+
+.services .service:hover{
+	transform: translateY(-10px);
+}
+
+.services .service i{
+	font-size: 48px;
+	color: var(--primary-color);
+	margin-bottom: 10px;
+}
+
+.services .service h3{
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: var(--selection-color);
+}
+
+.services .service p{
+	font-size: 16px;
+	color: var(--secondary-color);
+}
+
+
+/* Portfolio---------Section */
+
+
+.portfolio {
+    width: 100%;
+    display: block;
+    min-height: 100vh;
+    background-color: #2a2932;
+    padding: 100px 0;
+}
+.portfolio .title{
+	margin-bottom: 100px;
+}
+
+.portfolio .container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.portfolio .container .portfolio-filter {
+    padding: 0 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portfolio .container .portfolio-filter .filter-item {
+    color: #fff;
+    font-size: 17px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+    padding: 8px 20px;
+    line-height: 1.2;
+    transition: var(--transition);
+}
+
+.portfolio .container .portfolio-filter .filter-item.active {
+    color: #fff;
+    border-color: var(--primary-color);
+    background: var(--primary-color);
+}
+
+.portfolio .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio .image-container .image-item {
+    width: calc(33.333% - 20px);
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.portfolio .image-container .image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+	padding: 10px;
+}
+
+.portfolio .image-container .image-item video {
+	width: 100%;
+    height: auto;
+    display: block;
+	padding: 10px;
+}
