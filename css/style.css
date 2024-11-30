@@ -403,3 +403,69 @@ img{
     display: block;
 	padding: 10px;
 }
+
+
+
+
+/* Media Queries */
+
+
+
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    header .headerContent {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
+
+    header nav ul li {
+        display: block; /* Stack navigation items vertically */
+        margin: 10px 0; /* Add some margin between items */
+    }
+
+    .services .service {
+        width: 90%; /* Make services full width */
+        margin: 0 auto; /* Center services */
+    }
+
+    .portfolio .image-container .image-item {
+        width: 100%; /* Stack images vertically on small screens */
+        margin: 10px 0; /* Add margin */
+    }
+
+    .hero .hero-text h4, .hero .hero-text h3, .hero .hero-text h2 {
+        font-size: 24px; /* Reduce font sizes for small screens */
+    }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    header .headerContent {
+        flex-direction: row; /* Keep items in a row */
+        justify-content: space-between; /* Space out items */
+    }
+
+    .services .service {
+        width: 45%; /* Adjust width for tablet */
+    }
+
+    .portfolio .image-container .image-item {
+        width: calc(50% - 20px); /* Two items per row */
+    }
+
+    .hero .hero-text h4, .hero .hero-text h3, .hero .hero-text h2 {
+        font-size: 32px; /* Adjust font sizes for tablets */
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+    .services .service {
+        width: 30%; /* Use original width for desktop */
+    }
+
+    .portfolio .image-container .image-item {
+        width: calc(33.333% - 20px); /* Original three items per row */
+    }
+}
