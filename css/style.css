@@ -304,10 +304,6 @@ nav ul li a:hover{
     color: #4EBD9E;
 }
 
-.contact-text a i.fa-envelope:hover{
-    color: #D44638;
-}
-
 .contact-text a i.fa-figma:hover{
     color: #F24E1E;
 }
