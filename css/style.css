@@ -334,6 +334,13 @@ nav ul li a:hover{
     color: #FF0000;
 }
 
+.contact-text a i.fa-5:hover{
+    color: #fcb62e;
+}
+
+.contact-text a i.fa-circle-dot:hover{
+    color: #0dcaf0;
+}
 
 .pcspecs{
     position: relative;
